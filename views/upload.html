@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>MediaBox Upload Page</title>
+	<link rel="stylesheet" href="css/common.css" />
+</head>
+<body>
+	<h1>Upload content on the MediaBox</h1>
+	<form method="post" enctype="multipart/form-data" action="/upimg">
+		<input type="file" name="image">
+		<input type="submit" Value="Upload">
+	</form>
+	<h1><%= msg %></h1>
+	<a href="/"> Back to HOME page </a>
+</body>
+</html>

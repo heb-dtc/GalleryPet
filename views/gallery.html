@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Image Content</title>
+	<link rel="stylesheet" href="css/common.css" />
+  </head>
+  <body>
+  	<% for(var i=0; i<fileList.length; i++) { %>
+	  	<div class="img_div">
+        <img src="<%= fileList[i] %>" height="400" width="400"/>
+	  	</div>
+    <% } %>
+    <a href="/"> Back to HOME page </a>
+  </body>
+</html>

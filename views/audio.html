@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Audio Content</title>
+    <link rel="stylesheet" href="css/common.css" />
+  </head>
+  <body>
+  	<% for(var i=0; i<fileList.length; i++) { %>
+	  	<audio controls>
+	  		<source  src="<%= fileList[i] %>" type="audio/mpeg">
+	  	</audio>
+    <% } %>
+  </body>
+</html>

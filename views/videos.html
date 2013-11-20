@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Content</title>
+  </head>
+  <body>
+  	<% for(var i=0; i<fileList.length; i++) { %>
+	  	<div class="img_div">
+        <video width="320" height="240" controls>
+        <source src="<%= fileList[i] %>" type="video/mp4">
+      </video>
+	  	</div>
+    <% } %>
+  </body>
+</html>
